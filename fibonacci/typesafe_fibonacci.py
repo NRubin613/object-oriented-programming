@@ -13,4 +13,4 @@ def typesafe_fib(n):
     elif n == 1:
         return 1
     else:
-        return fib(n-2) + fib(n-1)
+        return fib(n-2) + fib(n-1) # noqa F821
